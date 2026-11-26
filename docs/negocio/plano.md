@@ -2,22 +2,22 @@
 
 ## Proposta de Valor
 - Ranking unificado e confiável do que as pessoas realmente ouvem (Spotify, YouTube, Apple, Deezer).
-- Insights por recorte: país/região, gênero, período (24h/7d), origem (IA x humano), plataforma.
+- Insights por recorte: país/regiêo, gênero, período (24h/7d), origem (IA x humano), plataforma.
 - Discovery com contexto: tendências, virais emergentes, quedas, momentum cross‑platform.
 
 ## Públicos & Problemas
-- Fãs/ouvintes: descobrir o que está subindo agora por cena/plataforma.
-- Artistas/selos: medir tração e campanhas, identificar “breakouts”.
+- Fês/ouvintes: descobrir o que está subindo agora por cena/plataforma.
+- Artistas/selos: medir traçêo e campanhas, identificar “breakouts”.
 - Mídia/radios/festivais: pautas, curadoria, previsões.
 - Marcas/agências: planejamento e patrocínio com dados.
 
 ## Diferenciais (Moat)
-- Agregação multi‑fonte quase em tempo real (inclui Apple/Deezer além de Spotify/YouTube).
-- Normalização + score próprio (posição, views, likes, growth rate) e antifraude básico.
-- Sinais IA (origem/gerado por IA), tendências por microrregião e nicho.
-- Parcerias e reputação (badge “tMusic Charted”, imprensa, creators).
+- Agregaçêo multi‑fonte quase em tempo real (inclui Apple/Deezer além de Spotify/YouTube).
+- Normalizaçêo + score próprio (posiçêo, views, likes, growth rate) e antifraude básico.
+- Sinais IA (origem/gerado por IA), tendências por microrregiêo e nicho.
+- Parcerias e reputaçêo (badge “tMusic Charted”, imprensa, creators).
 
-## Monetização
+## Monetizaçêo
 - B2C
   - Freemium (com ads) e Premium (R$ 14,90/mês): filtros avançados, playlists, alertas.
   - Afiliados: deep links (Spotify/YouTube/Apple) + tickets/merch.
@@ -30,28 +30,28 @@
 ## Go‑to‑Market (90 dias)
 - Fase 1 (0–30d): MVP BR + SEO
   - Fontes sem chave (Apple/Deezer) + Spotify/YouTube (client credentials).
-  - Páginas por categoria/gênero/região; metadados/OG; páginas artista/track.
+  - Páginas por categoria/gênero/regiêo; metadados/OG; páginas artista/track.
   - Conteúdo editorial: weekly “Top 10 virais BR”, Twitter/Threads, TikTok.
 - Fase 2 (31–60d): Prova social + Parcerias
   - Badges “tMusic Charted”; newsletter; parcerias com rádios/portais.
   - Trials do Dashboard Pro p/ selos/mídias (depoimentos/feedback).
-- Fase 3 (61–90d): Monetização e PR
+- Fase 3 (61–90d): Monetizaçêo e PR
   - Lançar Premium e Dashboard Pro; imprensa; collabs com creators.
   - Pilotos white‑label e campanhas patrocinadas.
 
 ## Produto & Roadmap
 - MVP: rankings multi‑fonte, filtros por fonte/plataforma, páginas públicas, BFF cacheado, coleta horária.
 - v1: contas/assinaturas, alertas, playlists automáticas, API pública, painel Pro.
-- v2: IA de insights (previsões), segmentação geográfica/scene, antifraude, export avançado.
+- v2: IA de insights (previsões), segmentaçêo geográfica/scene, antifraude, export avançado.
 
-## Operação & Compliance
+## Operaçêo & Compliance
 - Tech: Next.js + ISR; coleta em cron; observabilidade (logs/alertas).
 - Legal: respeitar ToS das APIs; linkar às plataformas; termos/privacidade; LGPD.
-- Pagamentos: Pix/cartão; faturamento B2B.
+- Pagamentos: Pix/cartêo; faturamento B2B.
 
 ## KPIs
-- MAU/DAU, retenção 7/30, CTR para plataformas, Premium subs, ARPU, LTV/CAC.
-- B2B: trials → conversão, uso de API, churn.
+- MAU/DAU, retençêo 7/30, CTR para plataformas, Premium subs, ARPU, LTV/CAC.
+- B2B: trials → conversêo, uso de API, churn.
 
 ## Finanças (esboço)
 - Custos: Vercel/infra, quotas APIs, domínio, e‑mail, design/marketing.

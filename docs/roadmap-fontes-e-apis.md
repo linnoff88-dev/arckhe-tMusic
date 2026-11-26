@@ -1,4 +1,4 @@
-# Plano de Integração — Fontes, BFF e Filtros
+# Plano de Integraçêo — Fontes, BFF e Filtros
 
 ## Objetivos
 - Integrar fontes oficiais (Spotify, YouTube, Apple, Deezer) para Top Músicas/Bandas/DJs.
@@ -26,7 +26,7 @@
   - Chamar `getItemsAsync(category, { source, platform })`.
 - `apps/web/lib/aggregator.ts`
   - Assinatura: `getTopTracksExternal({ limit, source, platform, timeframe })`.
-  - Score por fonte (ex.: Spotify 0.5, YouTube 0.3, Apple/Deezer 0.2) + posição/engajamento.
+  - Score por fonte (ex.: Spotify 0.5, YouTube 0.3, Apple/Deezer 0.2) + posiçêo/engajamento.
   - Dedup por `title+artist` e idealmente ISRC (via Spotify) quando disponível.
   - Cache por fonte; fallback em caso de erro.
 - `apps/web/lib/sources/*.ts`
@@ -63,7 +63,7 @@ type Item = {
 
 ## Passos (Checklist)
 1) Adicionar `source`/`platform` aos handlers do BFF.
-2) Estender `aggregator.ts` para aceitar filtros e ponderação de score.
+2) Estender `aggregator.ts` para aceitar filtros e ponderaçêo de score.
 3) Implementar `sources/spotify.ts` e `sources/youtube.ts`.
 4) Atualizar `Filters.tsx` com chips de Fontes; propagar `source` nas páginas.
 5) Definir envs no Vercel; testar Preview/Production.

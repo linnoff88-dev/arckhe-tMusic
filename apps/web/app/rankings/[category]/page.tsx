@@ -1,11 +1,11 @@
-﻿import CategoryTabs from '../../../components/CategoryTabs';
+?import CategoryTabs from '../../../components/CategoryTabs';
 import Filters from '../../../components/Filters';
 import RankSection from '../../../components/RankSection';
 import type { RankItem, RankKind } from '../../../components/RankCard';
 import { getItemsAsync } from '../../../lib/rankings';
 
 const TITLE: Record<string, string> = {
-  musicas: 'Top 10 MÃºsicas',
+  musicas: 'Top 10 Músicas',
   bandas: 'Top 10 Bandas',
   djs: 'Top 10 DJs',
   ia: 'Top 10 IA',

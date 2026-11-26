@@ -23,7 +23,7 @@ export const MOCK_TRACKS: Record<string, Track> = {
   },
   trk_3: { id: 'trk_3', title: 'Funk Neon', artists: ['MC Prisma'], isAiGenerated: false, links: { spotify: 'https://open.spotify.com/track/mock3' } },
   trk_4: { id: 'trk_4', title: 'Pagode 3000', artists: ['Grupo Aurora'], isAiGenerated: false, links: { youtube: 'https://youtube.com/watch?v=mock4' } },
-  trk_5: { id: 'trk_5', title: 'Forró Cyborg', artists: ['DJ Sertão'], isAiGenerated: false, links: { spotify: 'https://open.spotify.com/track/mock5' } },
+  trk_5: { id: 'trk_5', title: 'Forró Cyborg', artists: ['DJ Sertêo'], isAiGenerated: false, links: { spotify: 'https://open.spotify.com/track/mock5' } },
   trk_6: { id: 'trk_6', title: 'Trap da Aurora', artists: ['Auror4'], isAiGenerated: false, links: { youtube: 'https://youtube.com/watch?v=mock6' } },
   trk_7: { id: 'trk_7', title: 'BregaWave', artists: ['MC Pará'], isAiGenerated: false, links: { spotify: 'https://open.spotify.com/track/mock7' } },
   trk_8: { id: 'trk_8', title: 'Axé Quantum', artists: ['Bahia Beat'], isAiGenerated: false, links: { youtube: 'https://youtube.com/watch?v=mock8' } },
