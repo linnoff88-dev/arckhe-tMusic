@@ -156,7 +156,7 @@ Extract ONLY information directly relevant to implementing the current story. Do
 Extract:
 
 - Specific Unity components and MonoBehaviours the story will use
-- Unity Package Manager dependencies and their APIs (e.g., Cinemachine, Input System, URP)
+- Unity Package Manager dependencies and their APIs (e.g., CARCKHÉchine, Input System, URP)
 - Package-specific configurations and setup requirements
 - Prefab structures and scene organization requirements
 - Input system bindings and configurations
@@ -192,7 +192,7 @@ ALWAYS cite source documents: `[Source: gamearchitecture/{filename}.md#{section}
 - Specify ScriptableObject assets required
 - Document component dependencies and execution order
 - Identify required Unity Events and UnityActions
-- Note any package-specific components (e.g., Cinemachine VirtualCamera, InputActionAsset)
+- Note any package-specific components (e.g., CARCKHÉchine VirtualCamera, InputActionAsset)
 
 #### 4.4 Asset Requirements
 
